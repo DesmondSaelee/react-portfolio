@@ -7,16 +7,11 @@ function Main() {
                 <h3 id="About Me">About Me</h3>
                 <section className="paragraph">
 
-                    <p>Helvetica put a bird on it church-key Blue Bottle banjo bespoke brunch Etsy authentic Marfa quinoa
-                        typewrite plaid direct trade small batch wayfarers bicycle right cliche craft beer gastropub
-                        single-origin coffe Godard Carles you probably haven't heard of them irony pickled kitsch synth
-                        srirache gentrify literally heirloom blog Truffaut paleo scenester</p>
+                    <p>I'm Desmond Saelee. I'm a fullstack web developer. I specialize in javascript and MERN developing.
+                        I'm always looking to expand my horizons. If something catches your eye it is worth stopping to take a look.
+                    </p>
 
-                    <p>Echo Park sriracha Pinterest vegan biodiesel 90's irony iPhone Kickstarter Carles crucifix kitsch
-                        narwhal dreamcatcher pickled trust fund selvage art party letterpress Tumblr post-ironic oki
-                        Thundercats Tonx Brooklyn Pitchfork Odd Future authentic normcore freegan leggings Schlitz chambray
-                        organic tousled retro fap squid street art church-key fashion axe Wes Anderson bespoke whatever
-                        gentrify bahn mi you probably haven't heard of them American Apparel next level pug ugh</p>
+                    
                 </section>
 
             </div>
@@ -26,12 +21,12 @@ function Main() {
 
                 <section className="paragraph">
                     <div id="html-refactoring">
-                        <p id="refactor-link"><a href="https://desmondsaelee.github.io/html-refactoring/" target="_blank">HTML Refactoring: HTML/CSS</a></p>
+                        <p id="refactor-link"><a href="https://desmondsaelee.github.io/html-refactoring/" target="">HTML Refactoring: HTML/CSS</a></p>
                     </div>
 
                     <section className='bottomContainer'>
                         <div className="applications" id="Password-Generator">
-                            <p className="query"><a href="https://desmondsaelee.github.io/Password-Generator/" target="_blank">Password-Generator: Javascript</a>
+                            <p className="query"><a href="https://desmondsaelee.github.io/Password-Generator/" target="">Password-Generator: Javascript</a>
 
                             </p>
 
@@ -41,28 +36,28 @@ function Main() {
                         </div>
 
                         <div className="applications" id="work-calendar">
-                            <p className="query"><a href="https://desmondsaelee.github.io/work-calendar/" target="_blank">work-calendar: Jquery/Day.js</a></p>
+                            <p className="query"><a href="https://desmondsaelee.github.io/work-calendar/" target="">work-calendar: Jquery/Day.js</a></p>
 
 
 
                         </div>
 
                         <div className="applications" id="weather-and-music">
-                            <p className="query"><a href="https://desmondsaelee.github.io/weather-and-music" target="_blank">weather-and-music: HTML/Javascript</a></p>
+                            <p className="query"><a href="https://desmondsaelee.github.io/weather-and-music" target="">weather-and-music: HTML/Javascript</a></p>
 
 
 
                         </div>
 
                         <div className="applications" id="Note-Taker">
-                            <p className="query"><a href="https://desmond-notetaker.herokuapp.com/" target="_blank">Note-Taker: db.json/Heroku</a></p>
+                            <p className="query"><a href="https://desmond-notetaker.herokuapp.com/" target="">Note-Taker: db.json/Heroku</a></p>
 
 
 
                         </div>
 
                         <div className="applications" id="Take-A-Hike">
-                            <p className="query"><a href="https://takeahike-bootcamp.herokuapp.com/" target="_blank">Take-A-Hike: MVC</a></p>
+                            <p className="query"><a href="https://takeahike-bootcamp.herokuapp.com/" target="">Take-A-Hike: MVC</a></p>
 
 
 
@@ -75,8 +70,8 @@ function Main() {
 
 
                 </section>
-            <div/>
-        <div/>
+            </div>
+        </div>
                 )
 }
 

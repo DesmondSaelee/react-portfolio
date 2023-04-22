@@ -1,5 +1,5 @@
 import React from 'react'
-import myImg from '../images/DesmondPicture.jpg'
+import myImg from '../images/DesmondPicture.Edited.png'
 function Hero() {
   return (
     <section className="second-row">
