@@ -1,6 +1,6 @@
 *{
   color: navy;
-  font-size: 32px;
+  font-size: 30px;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -132,8 +132,8 @@ h2 text {
   height: 30vh;
   background-image:url("./images/Html-refactoring-picture.png"); 
   background-size: cover; 
-  display: flex;
-  align-items: flex-end;
+  /* display: flex; */
+  /* align-items: flex-end; */
 }
 /* applications class for my application links. all have same background and flex css. */
 .applications {
@@ -168,10 +168,21 @@ h2 text {
 
 #refactor-link {
   background-color: lightblue;
+  position: relative;
+  top: 140px;
 }
 
 .active {
   color: black;
+}
+
+#contactForm{
+
+  border-left: solid 5px black;
+  margin-top: 10px;
+  
+  width: 100%;
+
 }
 
 

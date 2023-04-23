@@ -21,11 +21,17 @@ function Main() {
 
                 <section className="paragraph">
                     <div id="html-refactoring">
-                        <p id="refactor-link"><a href="https://desmondsaelee.github.io/html-refactoring/" target="">HTML Refactoring: HTML/CSS</a></p>
+                        <p id="refactor-link"><a href="https://desmondsaelee.github.io/html-refactoring/" target="">Deployed Application</a></p>
+                        <p id="refactor-link"><a href="https://github.com/DesmondSaelee/html-css-refactor" target="">Github Repo</a></p>
                     </div>
 
                     <section className='bottomContainer'>
                         <div className="applications" id="Password-Generator">
+                            <p className="query"><a href="https://desmondsaelee.github.io/Password-Generator/" target="">Password-Generator: Javascript</a>
+
+                            </p>
+
+
                             <p className="query"><a href="https://desmondsaelee.github.io/Password-Generator/" target="">Password-Generator: Javascript</a>
 
                             </p>
