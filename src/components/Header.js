@@ -1,4 +1,5 @@
-import React, {useState} from 'react'
+import React, {useState} from 'react';
+import { Link } from 'react-router-dom';
 
 
 
@@ -16,10 +17,10 @@ const handleClick = (e) => {
         <h1>Desmond Saelee</h1>
         <nav>
             <ul onClick={handleClick}>
-                <li><a href="#About Me" data-section='about' className= {activeSection === 'about' ? 'active': ''}>About me</a></li>
-                <li><a href="#Work" data-section='work' className= {activeSection === 'work' ? 'active': ''}>Work</a></li>
-                <li><a href="#Contact Me" data-section='contact' className= {activeSection === 'contact' ? 'active': ''}>Contact Me</a></li>
-                <li><a href="#Work" data-section='resume' className= {activeSection === 'resume' ? 'active': ''}>Resume</a></li>
+                <li><Link to="/" data-section='about' className= {activeSection === 'about' ? 'active': ''}>About me</Link></li>
+                <li><Link to="/portfolio" data-section='work' className= {activeSection === 'work' ? 'active': ''}>Work</Link></li>
+                <li><Link to="/contact" data-section='contact' className= {activeSection === 'contact' ? 'active': ''}>Contact Me</Link></li>
+                <li><Link to="/hero" data-section='resume' className= {activeSection === 'resume' ? 'active': ''}>Resume</Link></li>
             </ul>
         </nav>
     </header>

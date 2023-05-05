@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 
+//  onBlur event is good for forms when focusing then not focusing.
 
 
 function Contact() {

@@ -2,19 +2,7 @@ import React from 'react'
 
 function Main() {
     return (
-        <div>
-            <div className="container">
-                <h3 id="About Me">About Me</h3>
-                <section className="paragraph">
-
-                    <p>I'm Desmond Saelee. I'm a fullstack web developer. I specialize in javascript and MERN developing.
-                        I'm always looking to expand my horizons. If something catches your eye it is worth stopping to take a look.
-                    </p>
-
-                    
-                </section>
-
-            </div>
+     
 
             <div className="container">
                 <h3 id="Work">Work</h3>
@@ -77,7 +65,7 @@ function Main() {
 
                 </section>
             </div>
-        </div>
+        
                 )
 }
 
